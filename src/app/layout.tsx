@@ -8,8 +8,8 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' })
 
 export const metadata: Metadata = {
-  title: 'Zaraffi Ltd. — Iraq Apparel Company',
-  description: 'Trusted Apparel Exporters from Bangladesh to Iraq',
+  title: 'EBDAA AL-TAKWEN CO.',
+  description: 'Trusted Apparel Importer from Bangladesh to Iraq',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

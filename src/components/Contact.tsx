@@ -59,18 +59,18 @@ export default function Contact() {
           <div className="md:w-1/3 space-y-4 text-sm text-neutral-700">
             <div>
               <h4 className="font-semibold text-brand mb-1">Phone</h4>
-              <p>+964 770 123 4567</p>
-              <p>+880 1711 234567</p>
+              <p>+964780302271</p>
             </div>
 
             <div>
               <h4 className="font-semibold text-brand mb-1">Email</h4>
-              <p>info@zaraffi.com</p>
+              <p>Mohammad2343@gmail.com</p>
             </div>
 
             <div>
               <h4 className="font-semibold text-brand mb-1">Office Address</h4>
-              <p>Zaraffi Ltd., Industrial Zone, Erbil, Iraq</p>
+              <p>Thi,Qar Iraq, Nassriya, Alhaboobi
+28032018, Iraq.</p>
             </div>
           </div>
         </div>
