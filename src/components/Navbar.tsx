@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import { Menu } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 
 /**
  * Navbar component for top navigation — sticky, responsive, with mobile side drawer menu.
@@ -58,10 +58,19 @@ export default function Navbar() {
           onClick={() => setMenuOpen(false)}
         >
           <div
-            className="bg-white w-64 h-full p-6 space-y-6 shadow-lg"
+            className="bg-white w-64 h-full p-6 space-y-6 shadow-lg relative"
             onClick={(e) => e.stopPropagation()}
           >
-            <h2 className="text-xl font-bold text-brand mb-4">Menu</h2>
+            {/* Close Button */}
+            <button
+              className="absolute top-4 right-4 text-gray-600 hover:text-black"
+              onClick={() => setMenuOpen(false)}
+              aria-label="Close menu"
+            >
+              <X size={24} />
+            </button>
+
+            <h2 className="text-xl font-bold text-brand mb-6">Menu</h2>
             <Link
               href="#about"
               className="block text-neutral-800 hover:text-brand"
