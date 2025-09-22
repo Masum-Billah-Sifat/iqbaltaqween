@@ -10,12 +10,12 @@ export default function Features() {
     {
       icon: <ShieldCheck className="w-8 h-8 text-brand" />,
       title: 'Govt Approved',
-      description: 'Fully licensed export company registered in Iraq',
+      description: 'Fully licensed import company registered in Iraq',
     },
     {
       icon: <Truck className="w-8 h-8 text-brand" />,
       title: 'Fast Delivery',
-      description: 'Weekly shipments from Bangladesh to Iraq',
+      description: 'monthly shipments from Bangladesh to Iraq',
     },
     {
       icon: <CheckCircle className="w-8 h-8 text-brand" />,
