@@ -15,6 +15,12 @@ const products = [
   { src: '/products/product-four.jpeg', alt: 'Ladies Dress' },
   { src: '/products/product-five.jpeg', alt: 'Men Pants' },
   { src: '/products/product-six.jpeg', alt: 'Ladies Dress' },
+  { src: '/products/product-seven.jpeg', alt: 'Casual Shirt' },
+  { src: '/products/product-eight.jpeg', alt: 'Formal Shirt' },
+  { src: '/products/product-nine.jpeg', alt: 'Men Pants' },
+  { src: '/products/product-ten.jpeg', alt: 'Ladies Dress' },
+  { src: '/products/product-eleven.jpeg', alt: 'Men Pants' },
+  { src: '/products/product-twelve.jpeg', alt: 'Ladies Dress' },
   // Add more as needed
 ]
 
