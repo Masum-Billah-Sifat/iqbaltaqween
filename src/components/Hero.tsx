@@ -39,7 +39,7 @@ export default function Hero() {
           height={100}
           className="rounded-full mx-auto mb-3 sm:mb-4 shadow-md object-cover"
         />
-        <p className="text-base sm:text-lg font-semibold">Mohammad Sagban Al</p>
+        <p className="text-base sm:text-lg font-semibold">Mohammad Sagban Ali</p>
         <p className="text-sm text-neutral-600 mb-4 sm:mb-6">Founder & CEO</p>
 
         <Link
