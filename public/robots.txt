@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.ebdaaaltakwenco.com/
+
+# Sitemaps
+Sitemap: https://www.ebdaaaltakwenco.com/sitemap.xml
