@@ -9,7 +9,7 @@ const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfa
 
 export const metadata: Metadata = {
   title: 'EBDAA AL-TAKWEN CO.',
-  description: 'Trusted Apparel Importer from Bangladesh to Iraq',
+  description: 'Trusted Apparel Importer from Bangladesh to Iraq having the name ebdaa al takwen co',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
